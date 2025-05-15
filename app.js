@@ -16,7 +16,7 @@ import notFoundHandler from "./middleware/not-found.js";
 
 dotenv.config();
 
-
+const port = 3000;
 const app = Express();
 app.use(cors());
 // middleware
@@ -35,7 +35,7 @@ connectDB();
 
 try {
 
-    const port = process.env.PORT;
+    //const port = process.env.PORT;
     app.listen(port, console.log(`Server running on port ${port}!`));
 
 } catch (error) {
