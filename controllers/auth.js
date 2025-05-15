@@ -45,6 +45,7 @@ export async function login(req, res) {
         }
 
         // create token
+        // fir accessing and checking the regsitered user
         const token = createToken(registeredUser.id, username);
 
         return res.json({ message: "User logged in successfully!", token });

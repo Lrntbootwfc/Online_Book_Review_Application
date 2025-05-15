@@ -1,5 +1,5 @@
 import { decodeToken } from "../utils/tokens.js"
-
+// for authentication purpose
 function authenticate(req, res, next) {
     try {
         let tokenHeader = req.headers.authorization;

@@ -1,5 +1,5 @@
 import book from "../models/book.js"
-
+// to get all the books 
 export async function getAllBooks(req, res) {
     try {
         const books = await book.findAll();

@@ -20,3 +20,4 @@ export async function connectDB() {
         console.log("Failed connecting to database", { message: error.message });
     }
 }
+// connection .js

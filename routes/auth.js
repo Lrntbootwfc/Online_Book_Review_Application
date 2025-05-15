@@ -7,3 +7,4 @@ router.post("/auth/register", authControllers.register);
 router.post("/auth/login", authControllers.login);
 
 export default router;
+// routes for register and login

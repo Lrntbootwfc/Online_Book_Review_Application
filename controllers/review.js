@@ -1,5 +1,5 @@
 import review from "../models/review.js";
-
+// to add review
 export async function addReview(req, res) {
     try {
         // data to be stored

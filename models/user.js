@@ -13,3 +13,4 @@ const user = sequelize.define('User', {
 });
 
 export default user;
+//connecting checking foruser and password

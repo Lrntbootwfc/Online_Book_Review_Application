@@ -12,3 +12,5 @@ router.post("/books", bookControllers.addBook);
 
 
 export default router;
+
+//all the routes for functions what we need to fetch
